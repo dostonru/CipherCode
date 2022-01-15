@@ -11,7 +11,7 @@ import SwiftUI
 struct CipherCodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeScreen()
         }
     }
 }
