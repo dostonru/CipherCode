@@ -6,6 +6,7 @@ struct WelcomeScreen: View {
     @State private var opacity: Double  = 1.0
     @State private var changeView: Bool = false
     @Namespace var welcomeAnimation
+    
     // MARK: Welcome Screen
     var body: some View {
         if changeView {
