@@ -11,6 +11,8 @@
 		F9369A48279373DA00B17098 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9369A47279373DA00B17098 /* WelcomeScreen.swift */; };
 		F9369A4A279373DC00B17098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9369A49279373DC00B17098 /* Assets.xcassets */; };
 		F9369A4D279373DC00B17098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9369A4C279373DC00B17098 /* Preview Assets.xcassets */; };
+		F956229227938AB000769EAF /* CipherOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F956229127938AB000769EAF /* CipherOptions.swift */; };
+		F9AC628827944915003B83C2 /* CipherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC628727944915003B83C2 /* CipherPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F9369A47279373DA00B17098 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		F9369A49279373DC00B17098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9369A4C279373DC00B17098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F956229127938AB000769EAF /* CipherOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherOptions.swift; sourceTree = "<group>"; };
+		F9AC628727944915003B83C2 /* CipherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				F9369A47279373DA00B17098 /* WelcomeScreen.swift */,
+				F956229127938AB000769EAF /* CipherOptions.swift */,
+				F9AC628727944915003B83C2 /* CipherPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			files = (
 				F9369A48279373DA00B17098 /* WelcomeScreen.swift in Sources */,
 				F9369A46279373DA00B17098 /* CipherCodeApp.swift in Sources */,
+				F956229227938AB000769EAF /* CipherOptions.swift in Sources */,
+				F9AC628827944915003B83C2 /* CipherPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
