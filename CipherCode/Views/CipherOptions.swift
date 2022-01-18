@@ -31,7 +31,7 @@ struct CipherOptions: View {
                 }
                 List {
                     HStack {
-                        NavigationLink("Caesar Cipher", destination: CipherPage())
+                        NavigationLink("Caesar Cipher", destination: CaesarCipherPage())
                     }
                 }
                 .offset(y: -10)

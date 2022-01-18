@@ -13,7 +13,7 @@
 		F9369A4D279373DC00B17098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9369A4C279373DC00B17098 /* Preview Assets.xcassets */; };
 		F952A8A2279478250079D6AB /* CaesarCipherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952A8A1279478250079D6AB /* CaesarCipherViewModel.swift */; };
 		F956229227938AB000769EAF /* CipherOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F956229127938AB000769EAF /* CipherOptions.swift */; };
-		F9AC628827944915003B83C2 /* CipherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC628727944915003B83C2 /* CipherPage.swift */; };
+		F9AC628827944915003B83C2 /* CaesarCipherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC628727944915003B83C2 /* CaesarCipherPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		F9369A4C279373DC00B17098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F952A8A1279478250079D6AB /* CaesarCipherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCipherViewModel.swift; sourceTree = "<group>"; };
 		F956229127938AB000769EAF /* CipherOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherOptions.swift; sourceTree = "<group>"; };
-		F9AC628727944915003B83C2 /* CipherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherPage.swift; sourceTree = "<group>"; };
+		F9AC628727944915003B83C2 /* CaesarCipherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCipherPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				F9369A45279373DA00B17098 /* CipherCodeApp.swift */,
+				F952A8A327947DEF0079D6AB /* ViewModels */,
 				F956228C27937EE600769EAF /* Views */,
 				F9369A49279373DC00B17098 /* Assets.xcassets */,
 				F9369A4B279373DC00B17098 /* Preview Content */,
-				F952A8A1279478250079D6AB /* CaesarCipherViewModel.swift */,
 			);
 			path = CipherCode;
 			sourceTree = "<group>";
@@ -74,12 +74,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F952A8A327947DEF0079D6AB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F952A8A1279478250079D6AB /* CaesarCipherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		F956228C27937EE600769EAF /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				F9369A47279373DA00B17098 /* WelcomeScreen.swift */,
 				F956229127938AB000769EAF /* CipherOptions.swift */,
-				F9AC628727944915003B83C2 /* CipherPage.swift */,
+				F9AC628727944915003B83C2 /* CaesarCipherPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,7 +166,7 @@
 				F9369A46279373DA00B17098 /* CipherCodeApp.swift in Sources */,
 				F956229227938AB000769EAF /* CipherOptions.swift in Sources */,
 				F952A8A2279478250079D6AB /* CaesarCipherViewModel.swift in Sources */,
-				F9AC628827944915003B83C2 /* CipherPage.swift in Sources */,
+				F9AC628827944915003B83C2 /* CaesarCipherPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
